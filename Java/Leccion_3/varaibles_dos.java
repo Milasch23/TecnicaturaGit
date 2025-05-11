@@ -26,6 +26,7 @@ public class varaibles_dos {
         System.out.println("Comillas dobles: \"" + nombre);
 
         //Clase Scanner
+        @SuppressWarnings("resource")
         Scanner entrada = new Scanner(System.in);
         System.out.println("Escriba su nombre: ");
         String usuario2 = entrada.nextLine();

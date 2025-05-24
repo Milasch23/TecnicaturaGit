@@ -47,5 +47,21 @@ public class primitivos3 {
         var charFrase = entrada.nextLine().charAt(0);
         System.out.println(charFrase);
 
+        //Ejercicio Tienda de libros
+        System.out.println("Escriba el nombre del libro: ");
+        String libro = entrada.nextLine();
+        System.out.println("Escriba el ID del libro: ");
+        int idLibro = Integer.parseInt(entrada.nextLine());
+        System.out.println("Ingrese el precio del libro: ");
+        double precio = Double.parseDouble(entrada.nextLine());
+        System.out.println("¿Envio gratuito?");
+        boolean envio = Boolean.parseBoolean(entrada.nextLine());
+
+        System.out.println("Datos del libro: ");
+        System.out.println("Nombre: " + libro);
+        System.out.println("ID: #" + idLibro);
+        System.out.println("Precio: $" + precio);
+        System.out.println("¿Envío gratis?: " + envio);
+
     }   
 }

@@ -6,6 +6,8 @@ Operadores simplificados
 -=
 *=
 /=
+%=
+**=
 
 
 Operadores aritméticos
@@ -14,6 +16,7 @@ Operadores aritméticos
 -
 *
 /
+%
 
 
 Operadores de asignación
@@ -22,7 +25,7 @@ Operadores de asignación
 
 Operadores de comparación
 ==
-
+===
 
 Comentarios
 //
@@ -47,9 +50,20 @@ Secuencias de escape
 
 Operador de aumento
 ++
-
+a++ <- Pos Incremento
+++a <- Pre Incremento
 
 Operador de decremento
 --
+a-- <- Pos Decremento
+--a <- Pre Decremento
 
+Operador distinto
+!=
+!==
 
+Operadores relacionales
+>
+<
+>=
+<=

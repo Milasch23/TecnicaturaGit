@@ -30,38 +30,42 @@ public class primitivos3 {
         var valorPi = Double.parseDouble("3.1416");
         System.out.println(valorPi);
 
-        // //Petición de valor
-        var entrada = new Scanner(System.in);
-        System.out.println("Escriba su edad: ");
-        var edadt = Integer.parseInt(entrada.nextLine());
-        System.out.println("edad: " + edadt);
+        try (// //Petición de valor
+        var entrada = new Scanner(System.in)) {
+            System.out.println("Escriba su edad: ");
+            var edadt = Integer.parseInt(entrada.nextLine());
+            System.out.println("edad: " + edadt);
 
-        //Conversión de tipos primitivos Parte 2
-        var edadTexto = String.valueOf(10);
-        System.out.println(edadTexto);
+            //Conversión de tipos primitivos Parte 2
+            var edadTexto = String.valueOf(10);
+            System.out.println(edadTexto);
 
-        var fraseChar = "Soy desarrolladora".charAt(0);
-        System.out.println(fraseChar);
-        
-        System.out.println("Escriba un caracter: ");
-        var charFrase = entrada.nextLine().charAt(0);
-        System.out.println(charFrase);
+            var fraseChar = "Soy desarrolladora".charAt(0);
+            System.out.println(fraseChar);
+            
+            System.out.println("Escriba un caracter: ");
+            var charFrase = entrada.nextLine().charAt(0);
+            System.out.println(charFrase);
 
-        //Ejercicio Tienda de libros
-        System.out.println("Escriba el nombre del libro: ");
-        String libro = entrada.nextLine();
-        System.out.println("Escriba el ID del libro: ");
-        int idLibro = Integer.parseInt(entrada.nextLine());
-        System.out.println("Ingrese el precio del libro: ");
-        double precio = Double.parseDouble(entrada.nextLine());
-        System.out.println("¿Envio gratuito?");
-        boolean envio = Boolean.parseBoolean(entrada.nextLine());
+            //Ejercicio Tienda de libros
+            System.out.println("Escriba el nombre del libro: ");
+            String libro = entrada.nextLine();
+            System.out.println("Escriba el ID del libro: ");
+            int idLibro = Integer.parseInt(entrada.nextLine());
+            System.out.println("Ingrese el precio del libro: ");
+            double precio = Double.parseDouble(entrada.nextLine());
+            System.out.println("¿Envio gratuito?");
+            boolean envio = Boolean.parseBoolean(entrada.nextLine());
 
-        System.out.println("Datos del libro: ");
-        System.out.println("Nombre: " + libro);
-        System.out.println("ID: #" + idLibro);
-        System.out.println("Precio: $" + precio);
-        System.out.println("¿Envío gratis?: " + envio);
+            System.out.println("Datos del libro: ");
+            System.out.println("Nombre: " + libro);
+            System.out.println("ID: #" + idLibro);
+            System.out.println("Precio: $" + precio);
+            System.out.println("¿Envío gratis?: " + envio);
+        } catch (NumberFormatException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 
     }   
 }

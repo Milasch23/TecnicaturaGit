@@ -1,3 +1,4 @@
 # Proyecto Clase 6 - Ejercitacion
 Clase 6 - Segunda linea a commitear
 Temas cubiertos: utilización de comandos de Git - clase 6
+Último cambio clase 6

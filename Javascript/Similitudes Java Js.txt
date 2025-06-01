@@ -67,3 +67,7 @@ Operadores relacionales
 <
 >=
 <=
+
+Operadores lógicos
+And &&
+Or ||

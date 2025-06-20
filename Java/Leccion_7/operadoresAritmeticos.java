@@ -1,4 +1,4 @@
-package Java.Leccion_7;
+package Leccion_7;
 
 public class operadoresAritmeticos {
 

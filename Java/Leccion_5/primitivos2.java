@@ -1,4 +1,4 @@
-package Java.Leccion_5;
+package Leccion_5;
 
 public class primitivos2 {
     public static void main(String[] args) {

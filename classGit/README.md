@@ -135,59 +135,60 @@
 **git log historia.txt** #Vemos toda la historia de este archivo, el número largo es el hash del commit
 
 # CLASE 3
-Analizar cambios en los archivos de tu proyecto Git parte 3
 
-Ingresamos de la siguiente manera:
+## Analizar cambios en los archivos de tu proyecto Git parte 3
 
-Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.
+### Ingresamos de la siguiente manera:
 
-cd tecnicaturagit #Ingresamos al direcotorio donde están nuestras carpetas de trabajo
+#### Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.
 
-ls #Vemos los archivos y directorios que ya tenemos
+**cd tecnicaturagit** #Ingresamos al direcotorio donde están nuestras carpetas de trabajo
 
-cd git #No hay nada
+**ls** #Vemos los archivos y directorios que ya tenemos
 
-cd .. #Salimos
+**cd git** #No hay nada
 
-rm historia.txt #Eliminamos el archivo que habíamos hecho, esto en git bash (window) esto es para practica
+**cd ..** #Salimos
 
-rm Git #rm: cannot remove 'Git': Is a directory
+**rm historia.txt** #Eliminamos el archivo que habíamos hecho, esto en git bash (window) esto es para practica
 
-rm --recursive -R Git #By default, rm does not remove directories.  Use the --recursive (-r or -R) arguments
+**rm Git #rm: cannot remove 'Git': Is a directory**
 
-option to remove each listed directory, too, along with all of its contents. Esto es para practica
+**rm --recursive -R Git #By default, rm does not remove directories.  Use the --recursive (-r or -R) arguments**
 
-rm --help #Nos muestra lo que les puse arriba como documentación en Inglés.
+**option to remove each listed directory, too, along with all of its contents.** Esto es para practica
 
-mkdir class-git #Creamos la carpeta o directorio para trabajar en Git local por ahora.
+**rm --help** #Nos muestra lo que les puse arriba como documentación en Inglés.
 
-cd class-git #Entramos para crear el README.md para este sector.
+**mkdir class-git** #Creamos la carpeta o directorio para trabajar en Git local por ahora.
 
-touch README.md #Vamos a crear un archivo nuevo, md significa markdown y se pueden trabajar con editores de texto, este es un lenguaje que transforma el texto a html.
+**cd class-git** #Entramos para crear el README.md para este sector.
 
-Enlace a la documentación en GitHub de MARKDOWN
+**touch README.md** #Vamos a crear un archivo nuevo, md significa markdown y se pueden trabajar con editores de texto, este es un lenguaje que transforma el texto a html.
 
-Leemos la documentación para ir creando en README.md como lo enseña GitHub.
+### Enlace a la documentación en GitHub de MARKDOWN
 
-code . #Abrimos VSC para editar el archivo.
+#### Leemos la documentación para ir creando en README.md como lo enseña GitHub.
 
-Empezamos a cargar lo visto en las clases anteriores (Comandos) en el README y pasamos a commitear
+**code .** #Abrimos VSC para editar el archivo.
 
-git status
+#### Empezamos a cargar lo visto en las clases anteriores (Comandos) en el README y pasamos a commitear
 
-git add .
+**git status**
 
-git status
+**git add .**
 
-git commit -m "Cargamos el README dentro del directorio class-git"
+**git status**
 
-git status
+**git commit -m "Cargamos el README dentro del directorio class-git"**
 
-git log #Para ver los dos commits hechos: Si tienes commiteada alguna clase anterior veras mas commits de los que yo tengo.
+**git status**
 
-cd ..
+**git log** #Para ver los dos commits hechos: Si tienes commiteada alguna clase anterior veras mas commits de los que yo tengo.
 
-cd ..
+**cd ..**
+
+**cd ..**
 
 # CLASE 4
 Analizar cambios en los archivos de tu proyecto Git parte 4

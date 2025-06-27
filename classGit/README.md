@@ -191,76 +191,74 @@
 **cd ..**
 
 # CLASE 4
-Analizar cambios en los archivos de tu proyecto Git parte 4
 
-Ingresamos de la siguiente manera:
+## Analizar cambios en los archivos de tu proyecto Git parte 4
 
-Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.
+### Ingresamos de la siguiente manera:
 
-TAREA -> AGREGAR LOS COMENTARIOS EN LOS COMANDOS, PARA SABER QUE PASA CON CADA UNO.
+#### Abrir git bash en Window o la terminal de Linux o de Mac: al abrir Git Bash hacerlo como administrador, en terminal también o usar sudo para permisos especiales.
 
-cd tecnicatura
+**cd tecnicatura**
 
-cd class-git
+**cd class-git**
 
-ls
+**ls**
 
-touch historia.txt
+**touch historia.txt**
 
-code .
+**code .**
 
-#Modificamos el archivo historia.txt colocando lo siguiente: Bienvenido     mi nombre es Ariel (coloca tu nombre)
+#### Modificamos el archivo historia.txt colocando lo siguiente: Bienvenido     mi nombre es Ariel (coloca tu nombre)
 
-ctrl + s
+**ctrl + s**
 
-git status
+**git status**
 
-git add .
+**git add .**
 
-git status
+**git status**
 
-git commit #Sin agregar -m veremos que pasa
+**git commit** #Sin agregar -m veremos que pasa
 
+#### Agregar mensaje y salir con
 
-#Agregar mensaje y salir con
+**Esc** #Presionamos Escape 
 
-Esc #Presionamos Escape 
+**:wq! + enter** #Y ya salimos si estamos en git bash con window
 
-:wq! + enter #Y ya salimos si estamos en git bash con window
+**Esc + shift + z + z** #Salimos del mensaje para el commit, en linux, esto anda en algunas terminales
 
-Esc + shift + z + z #Salimos del mensaje para el commit, en linux, esto anda en algunas terminales
+#### Agregamos otra línea de mensaje en historia.txt desde VSC: estoy estudiando programación
 
-#Agregamos otra línea de mensaje en historia.txt desde VSC: estoy estudiando programación
+**ctrl + s**
 
-ctrl + s
+**git add .**
 
-git add .
+**git commit**
 
-git commit
+#### Se abre un editor de código basado en línea de comandos, editor de texto como VSC llamado vim
 
-#Se abre un editor de código basado en línea de comandos, editor de texto como VSC llamado vim
+**Esc + i** #Para comenzar a escribir mensaje del commit, no suele ser necesario
 
-Esc + i #Para comenzar a escribir mensaje del commit, no suele ser necesario
+**ctrl + x** #Para salir en linux
 
-ctrl + x #Para salir en linux
+**s + enter** #Para decir si al cambio y aceptar el nombre, ósea no cambiamos el nombre, la (s) es de si y la (y) es de yes, no olvidar enter en linux
 
-s + enter #Para decir si al cambio y aceptar el nombre, ósea no cambiamos el nombre, la (s) es de si y la (y) es de yes, no olvidar enter en linux
+**git show** #Vemos todos los cambios en el último commit
 
-git show #Vemos todos los cambios en el último commit
+**git log historia.txt** #Vemos todos los commit
 
-git log historia.txt #Vemos todos los commit
+**q** #Para salir del registro de commits
 
-q #Para salir del registro de commits
+#### Copiamos un hash mas antoguo y otro reciente, ingresamos el siguiente comando
 
-#Copiamos un hash mas antoguo y otro reciente, ingresamos el siguiente comando
+**git diff hash_commit_numerico hash_commit_numerico** #Comparamos diferentes commits y sus cambios, poner la versión mas vieja primero, luego la mas nueva
 
-git diff hash_commit_numerico hash_commit_numerico #Comparamos diferentes commits y sus cambios, poner la versión mas vieja primero, luego la mas nueva
+**q** #Para salir
 
-q #Para salir
+**cd ..**
 
-cd ..
-
-cd ..
+**cd ..**
 
 # Clase 6
 

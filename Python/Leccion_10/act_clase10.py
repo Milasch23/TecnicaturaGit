@@ -1,4 +1,5 @@
-# Ejercicio 5 - clase 10
+# Ejercicio 5 - clase 10 - 
+# Calcular el factorial de un número mayor o igual a 0
 
 num = int(input("Escriba un número: "))
 i = 1
@@ -11,6 +12,7 @@ while i <= num:
 print(f"El factorial de {num} es: {factorial}")
 
 # Ejercicio 6 
+# Ingresar N Enteros, sumar pares, promediar impares
 elementos = int(input("Escriba la cantidad de elementos a ingresar: "))
 
 i = 1
@@ -40,7 +42,8 @@ Sumatoria pares: {paresSuma}
 Sumatoria impares {imparesSuma / imparesConteo}
 ''')
 
-# Ejercicio 7
+# Ejercicio 7 
+# Horas trabajadas
 
 horas = []
 tarifa = []

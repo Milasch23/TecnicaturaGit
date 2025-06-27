@@ -369,3 +369,27 @@
 **cd ..**
 
 **cd ..**
+
+# Clase 7
+
+**cd tecnicatura** #Vamos a hacer pruebas, es por esto que creamos una carpeta nueva
+
+**cd practicas** #Entramos en la carpeta
+
+**touch reset_file.txt** #Agregar información y hacer uno a dos commits
+
+**git add reset_file.txt**
+
+**git add .**
+
+**git commit -m"Iniciando el primer commit"**
+
+###Comenzar con las pruebas de git reset
+
+**git reset --soft** # Borra el historial y los registros de Git de commits anteriores, pero guarda los cambios en Staging para aplicar las últimas actualizaciones a un nuevo commit. 
+
+**git reset --hard** # Deshace todo, absolutamente todo. Toda la información de los commits y del área de staging se elimina del historial. 
+
+**git reset --mixed** # Borra todo, exactamente todo. Toda la información de los commits y del área de staging se elimina del historial. 
+
+**git reset HEAD** # El comando git reset saca archivos del área de staging sin borrarlos ni realizar otras acciones. Esto impide que los últimos cambios en estos archivos se envíen al último commit. Podemos incluirlos de nuevo en staging con git add si cambiamos de opinión. Ten en cuenta que, si deshaces commits en un repositorio compartido en GitHub, estarás cambiando su historia y esto puede causar problemas de sincronización con otros colaboradores.

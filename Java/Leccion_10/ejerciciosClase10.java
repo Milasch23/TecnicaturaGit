@@ -140,6 +140,8 @@ public class ejerciciosClase10 {
                 break;
         }
         System.out.println(nota);
+
+        entrada.close();
         
     }
 }

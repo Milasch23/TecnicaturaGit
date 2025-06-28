@@ -48,5 +48,7 @@ public class ejerciciosClase9 {
         sueldoMensual = sueldo + comision + porcVenta;
 
         System.out.println("Sueldo mensual: $" + sueldoMensual);
+
+        entrada.close();
     }
 }

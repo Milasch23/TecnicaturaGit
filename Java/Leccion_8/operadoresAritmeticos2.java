@@ -160,6 +160,7 @@ public class operadoresAritmeticos2 {
         var solucionAritmetica = ((4 + 5) * 6 / 3);
         System.out.println(solucionAritmetica);
 
+        entrada.close();
         
     }
     

@@ -17,15 +17,29 @@ let $break = "Hola";
 //*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 //Ejercicio - Par o Impar
 
-let numero = 17;
-if (numero % 2 == 0){
-    console.log("Es par");
+let numeros = [];
+for (let i = 0; i < 10; i++) {
+    numeros.push(Math.floor(Math.random() * 100) + 1);
+
 }
-else {
-    console.log("Es impar");
+console.log("Numeros generados", numeros);
+
+let pares = [];
+let impares = [];
+
+for (let i = 0; i < numeros.length; i++) {
+    if (numeros[i] % 2 === 0) {
+        pares.push(numeros[i]);
+    } else {
+    impares.push(numeros[i]);
+} 
 }
 
+console.log("Pares: ", pares);
+console.log("Impares: ", impares);
 //*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+//Ejercicio - Es mayor de edad
 let anio = 29;
 if (anio >= 18){
     console.log("Es mayor de edad");

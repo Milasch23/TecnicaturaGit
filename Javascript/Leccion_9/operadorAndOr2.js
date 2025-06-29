@@ -23,7 +23,7 @@ let edad = Number(miNum); //Función
 console.log(typeof(edad))
 
 
-
+//Ejercicio - Es mayor de edad
 if (edad >= 18){
     console.log("Puede votar")
 }
